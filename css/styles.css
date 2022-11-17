@@ -569,7 +569,6 @@ ul {
   overflow: hidden;
 }
 
-
 .project-overlay-text {
   color: var(--primary-white-color);
   font-size: 18px;
@@ -704,11 +703,10 @@ ul {
 
 /*Subscription Form*/
 .subscription-form {
-  position:relative;
+  position: relative;
   display: flex;
   gap: 12px;
 }
-
 
 .subscription-text {
   font-family: "Roboto";
@@ -721,7 +719,6 @@ ul {
 }
 
 .subscription-input {
-  
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -745,21 +742,19 @@ ul {
   position: absolute;
   top: 15px;
   left: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 16px;
-  line-height: calc(20/16);
-  color:rgba(255, 255, 255, 0.6);
+  line-height: calc(20 / 16);
+  color: rgba(255, 255, 255, 0.6);
 
   opacity: 1;
 
   transform: opacity var(--transitions-general);
 }
 
-
 .subscription-input:focus + .subscription-label {
   opacity: 0;
 }
-
 
 .subscription-btn {
   display: flex;
@@ -768,7 +763,7 @@ ul {
   justify-content: center;
   background-color: var(--main-brand-color);
   color: var(--primary-white-color);
-  font-family: 'Roboto';
+  font-family: "Roboto";
 
   font-weight: 700;
   font-size: 16px;
@@ -784,8 +779,8 @@ ul {
 
   cursor: pointer;
 
-  transition: color var(--transitions-general), background-color var(--transitions-general);
-
+  transition: color var(--transitions-general),
+    background-color var(--transitions-general);
 }
 
 .subscription-btn:hover,
@@ -868,12 +863,11 @@ ul {
 
 .close-btn-icon:hover,
 .close-btn-icon:focus {
-fill: var(--main-brand-color);
+  fill: var(--main-brand-color);
 }
 
 /*MODAL FORM*/
 .modal-text {
-  
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -887,7 +881,6 @@ fill: var(--main-brand-color);
   display: block;
   position: relative;
   margin-bottom: 28px;
-  
 }
 
 .form-input {
@@ -899,10 +892,8 @@ fill: var(--main-brand-color);
 }
 
 .form-input:focus {
-  outline:1px solid var(--main-brand-color); 
+  outline: 1px solid var(--main-brand-color);
 }
-
-
 
 .form-label {
   position: absolute;
@@ -910,7 +901,6 @@ fill: var(--main-brand-color);
   left: 0;
   transform: translateY(-18px);
 
- 
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -942,15 +932,14 @@ fill: var(--main-brand-color);
 }
 
 .form-field.message {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .message-form::placeholder {
-  
-font-size: 12px;
-line-height: calc(14 / 12);
-letter-spacing: 0.01em;
-color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .message-form:focus {
@@ -958,11 +947,10 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .checkbox-field {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 8px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .checkbox {
@@ -977,22 +965,22 @@ gap: 8px;
   border: 2px solid var(--default-text-color);
   border-radius: 2px;
   cursor: pointer;
-  
-  transition: background-color var(--transitions-general), border var(--transitions-general);
+
+  transition: background-color var(--transitions-general),
+    border var(--transitions-general);
 }
 
 .checkbox:checked {
-background-color: var(--main-brand-color);
-border: transparent;
+  background-color: var(--main-brand-color);
+  border: transparent;
 }
 
 .checkbox-text {
-font-size: 14px;
-line-height: calc(24 / 14);
-color: #757575;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: #757575;
 
-user-select: none;
-
+  user-select: none;
 }
 
 .checkbox-link {
@@ -1002,8 +990,3 @@ user-select: none;
 .modal-btn {
   margin-top: 30px;
 }
-
-
-
-
-
